@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Tawk.to Blocker",
+    "description": "Tawk.to Blocker by SM mest3r. https://smmest3r.dev/",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "background": {
+        "rule_resources": [
+            {
+                "id": "rules",
+                "path": "rules.js"
+            }
+        ],
+        "service_worker": "redirect.js"
+    },
+    "action": {
+        "default_title": "Tawk.to Blocker"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ],
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+    }]
+}
