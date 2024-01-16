@@ -6,4 +6,4 @@ It's pretty easy to install, but here's a video how to install it. (I'm using Op
 
 Need help, have a question? Join our discord community! https://discord.mest3rdevelopment.com/
 
-Are you a firefox user? Find the firefox compatible version here: [https://github.com/SMmest3r/TawktoBlocker-Firefox/tree/1.01](https://github.com/SMmest3r/TawktoBlocker-Firefox/)https://github.com/SMmest3r/TawktoBlocker-Firefox/
+Are you a firefox user? Find the firefox compatible version here: https://github.com/SMmest3r/TawktoBlocker-Firefox/
