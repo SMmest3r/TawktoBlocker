@@ -5,3 +5,5 @@ Tired of browsing websites in peace, but more and more websites are using the Ta
 It's pretty easy to install, but here's a video how to install it. (I'm using Opera GX, but you need to do almost the same steps in other chromium browsers too. It's not much to think about.) https://storage1.cubehost.hu/index.php/s/dH9zmtAjpR648qT
 
 Need help, have a question? Join our discord community! https://discord.mest3rdevelopment.com/
+
+Are you a firefox user? Find the firefox compatible version here: [https://github.com/SMmest3r/TawktoBlocker-Firefox/tree/1.01](https://github.com/SMmest3r/TawktoBlocker-Firefox/)https://github.com/SMmest3r/TawktoBlocker-Firefox/
