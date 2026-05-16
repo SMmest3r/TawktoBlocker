@@ -25,7 +25,7 @@ Firefox:
 
 ## Usage
 
-Once installed, the extension runs silently and blocks Tawk.to code from creating the chat widget or playing notification sounds. If you want to allow the widget on a specific site, disable the extension for that site via the browser’s extensions UI.
+Once installed, the extension runs silently and blocks Tawk.to code from creating the chat widget or playing notification sounds.
 
 ## Contributing
 
