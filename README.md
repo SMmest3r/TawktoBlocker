@@ -1,6 +1,39 @@
 # TawktoBlocker
 
-Tawk.to Blocker by SM mest3r
-Tired of browsing websites in peace, but more and more websites are using the Tawk.to widget? There's nothing wrong with it, but I'm particularly annoyed that it crawls into my face and even sends a notification sound. Plus there are a lot of sites using it where I never need it. That's why I made this extension for chromium & gecko browsers (Firefox, Brave, Chrome, Opera, etc)
+TawktoBlocker is a small browser extension that prevents the Tawk.to chat widget from loading or showing notifications on websites. It’s lightweight, privacy-friendly, and works in Chromium-based browsers and Firefox.
 
-Need help, have a question? Join our discord community! https://discord.mest3rdevelopment.com
+**Key points**
+
+- Blocks the Tawk.to chat widget from injecting UI and playing notification sounds.
+- Works automatically after installation -> no settings required.
+- Compatible with Chrome, Edge, Brave, Opera, and Firefox.
+
+## Installation
+
+Chromium-based browsers (Chrome, Edge, Brave, Opera):
+
+1. Download release.zip from the latest release
+2. Open the browser and go to the extensions page (e.g. `chrome://extensions/`).
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select this repository folder.
+
+Firefox:
+
+- Install from Mozilla Add-ons: https://addons.mozilla.org/en-US/firefox/addon/tawk-to-blocker/
+- Or load temporarily for development: open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → select `manifest.json` from this folder.
+
+## Usage
+
+Once installed, the extension runs silently and blocks Tawk.to code from creating the chat widget or playing notification sounds. If you want to allow the widget on a specific site, disable the extension for that site via the browser’s extensions UI.
+
+## Contributing
+
+Contributions and bug reports are welcome. Please open an issue or submit a pull request with a clear description of the change.
+
+## Support
+
+Need help or have a question? Join our Discord community: https://discord.mest3rdevelopment.com
+
+---
+
+Made by SMmest3r
