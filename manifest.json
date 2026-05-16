@@ -28,6 +28,11 @@
     "content_scripts": [{
         "js": ["content.js"],
         "matches": ["<all_urls>"]
-    }]
-    
+    }],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "mest3rdevelopment@tawktoblocker",
+            "strict_min_version": "55.0"
+        }
+    }
 }
