@@ -10,7 +10,11 @@ TawktoBlocker is a small browser extension that prevents the Tawk.to chat widget
 
 ## Installation
 
-Chromium-based browsers (Chrome, Edge, Brave, Opera):
+Chrome and Chromium-based browsers that support the Chrome Web Store:
+
+- Install from the Chrome Web Store: https://chromewebstore.google.com/detail/tawkto-blocker/bjickhhflidiefkkeieogcpepincakga
+
+If your browser does not support the Chrome Web Store, or if you want to install locally for development:
 
 1. Download release.zip from the latest release
 2. Unpack release.zip
