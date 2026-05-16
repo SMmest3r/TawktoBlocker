@@ -9,13 +9,8 @@
         "128": "icons/icon128.png"
     },
     "background": {
-        "rule_resources": [
-            {
-                "id": "rules",
-                "path": "rules.js"
-            }
-        ],
-        "service_worker": "redirect.js"
+        "service_worker": "background.js",
+        "scripts": ["background.js"]
     },
     "action": {
         "default_title": "Tawk.to Blocker"
@@ -23,10 +18,16 @@
     "permissions": [
         "activeTab",
         "declarativeNetRequest",
-        "declarativeNetRequestFeedback"
+        "declarativeNetRequestFeedback",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "host_permissions": [
+        "<all_urls>"
     ],
     "content_scripts": [{
         "js": ["content.js"],
         "matches": ["<all_urls>"]
     }]
+    
 }
