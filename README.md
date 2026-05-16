@@ -13,9 +13,10 @@ TawktoBlocker is a small browser extension that prevents the Tawk.to chat widget
 Chromium-based browsers (Chrome, Edge, Brave, Opera):
 
 1. Download release.zip from the latest release
-2. Open the browser and go to the extensions page (e.g. `chrome://extensions/`).
-3. Enable **Developer mode**.
-4. Click **Load unpacked** and select this repository folder.
+2. Unpack release.zip
+3. Open the browser and go to the extensions page (e.g. `chrome://extensions/`).
+4. Enable **Developer mode**.
+5. Click **Load unpacked** and select the unpacked release
 
 Firefox:
 
