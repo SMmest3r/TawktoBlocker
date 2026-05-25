@@ -1,12 +1,12 @@
 # TawktoBlocker
 
-TawktoBlocker is a small browser extension that prevents the Tawk.to chat widget from loading or showing notifications on websites. It’s lightweight, privacy-friendly, and works in Chromium-based browsers and Firefox.
+TawktoBlocker is a small browser extension that prevents the Tawk.to chat widget from loading or showing notifications on websites. It’s lightweight, privacy-friendly, and works in Chromium-based browsers, Firefox, and Safari.
 
 **Key points**
 
 - Blocks the Tawk.to chat widget from injecting UI and playing notification sounds.
 - Works automatically after installation -> no settings required.
-- Compatible with Chrome, Edge, Brave, Opera, and Firefox.
+- Compatible with Chrome, Edge, Brave, Opera, Firefox, and Safari.
 
 ## Installation
 
@@ -26,6 +26,10 @@ Firefox:
 
 - Install from Mozilla Add-ons: https://addons.mozilla.org/en-US/firefox/addon/tawk-to-blocker/
 - Or load temporarily for development: open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → select `manifest.json` from this folder.
+
+Safari:
+
+- Install from TestFlight: Soon
 
 ## Usage
 
